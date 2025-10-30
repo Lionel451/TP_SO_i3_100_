@@ -1,3 +1,19 @@
+Respuestas BETA:
+a-Después del merge, todos los commits/cambios quedan en el main.
+b-Si.
+c-208  git checkout main
+  209  git merge centurion
+  210  git checkout centurion
+  211  git merge main
+  212  git fetch origin main
+  213  git merge main
+  214  git merge --allow-unrelated-histories
+  215  git merge main --allow-unrelated-histories
+  216  git push
+  217  git checkout main
+  218  git merge centurion
+  219  git push
+
 Responde ALFA:
 G- 44  git pull
    45  git checkout zindis
