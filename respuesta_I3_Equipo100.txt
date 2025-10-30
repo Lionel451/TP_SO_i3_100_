@@ -32,4 +32,4 @@ sudo apt install net-tools
 git pull
 date
 ifconfig
-git push
+git push.
