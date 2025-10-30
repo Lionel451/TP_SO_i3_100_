@@ -37,3 +37,29 @@ wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         ether b8:27:eb:a1:b2:c3  txqueuelen 1000  (Ethernet)
 
 Thu Oct 30 10:22:24 AST 2025
+
+
+
+David Centurión
+
+enp5s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.7  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 2800:810:4f6:86db:53e9:9dfb:a8d8:a4fa  prefixlen 64  scopeid 0x0<global>
+        inet6 2800:810:4f6:86db:7285:c2ff:feb8:5878  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::7285:c2ff:feb8:5878  prefixlen 64  scopeid 0x20<link>
+        ether 70:85:c2:b8:58:78  txqueuelen 1000  (Ethernet)
+        RX packets 1402192  bytes 1031824121 (1.0 GB)
+        RX errors 0  dropped 12  overruns 0  frame 0
+        TX packets 360587  bytes 109513407 (109.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 3913  bytes 419464 (419.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3913  bytes 419464 (419.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+jue 30 oct 2025 10:26:35 -03
