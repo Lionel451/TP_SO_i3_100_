@@ -1,0 +1,8 @@
+Responde ALFA:
+G- 44  git pull
+   45  git checkout zindis
+   46  ifconfig >> beta.txt
+   47  date >> beta.txt
+   48  git add .
+   49  git commit -m "Agrego ifconfig y date"
+   50  git push
