@@ -22,3 +22,14 @@ G- 44  git pull
    48  git add .
    49  git commit -m "Agrego ifconfig y date"
    50  git push
+
+Responde GAMMA: 
+d-la rama de BETA queda actualizada pero veo que la rama de GAMMA no termina con los mismos archivos que la rama creada por BETA
+e-había cometido un error al iniciar el repo descargado como si fuera un repo nuevo con "git init" en vez de clone, y eso genero problemas
+de commits que no aparecian.
+f-
+sudo apt install net-tools
+git pull
+date
+ifconfig
+git push
