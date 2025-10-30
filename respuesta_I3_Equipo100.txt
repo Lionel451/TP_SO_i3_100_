@@ -22,3 +22,14 @@ G- 44  git pull
    48  git add .
    49  git commit -m "Agrego ifconfig y date"
    50  git push
+
+Responde GAMMA:
+d-Quedan actualizada la rama de BETA pero no la de GAMMA
+e-al hacer merge tuvimos el problema "unleashed histories", creo que este se debia a que estaban como separadas,
+tengo entendido que cometi el error de iniciar el repo que se me pidio local como si fuera como un repo nuevo con git init.
+f-
+git pull
+sudo apt install net-tools
+date
+ifconfig
+
