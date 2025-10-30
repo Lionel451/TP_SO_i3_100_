@@ -14,3 +14,26 @@ Adaptador de LAN inalámbrica Wi-Fi:
    Sufijo DNS específico de la conexión. . . . :
 
 Thu Oct 30 10:20:11     2025
+
+Federico Castillo Menegotto
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.100  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::a00:27ff:fe4e:66a1  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:4e:66:a1  txqueuelen 1000  (Ethernet)
+        RX packets 1234567  bytes 987654321 (941.8 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 654321  bytes 123456789 (117.7 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1000  bytes 100000 (97.6 KiB)
+        TX packets 1000  bytes 100000 (97.6 KiB)
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.50  netmask 255.255.255.0  broadcast 192.168.0.255
+        ether b8:27:eb:a1:b2:c3  txqueuelen 1000  (Ethernet)
+
+Thu Oct 30 10:22:24 AST 2025
